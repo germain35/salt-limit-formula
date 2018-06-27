@@ -1,0 +1,11 @@
+limit:
+  root:
+    enabled: true
+    domain: root
+    limits:
+      - type: soft
+        item: nofile
+        value: 8192
+      - type: hard
+        item: nofile
+        value: 8192
